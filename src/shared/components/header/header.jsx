@@ -8,7 +8,7 @@ import img1 from "../../imgs/Vector.png"
 const Header = () => {
     return (
         <div className='w-[90%] flex flex-row m-auto border-b-[1px] border-[#ccc] h-[8vh] items-center justify-between'>
-            <menu className='flex w-[70%] items-center gap-[40px]'>
+            <menu className='flex w-[70%] items-center gap-[40px] '>
                 <Image className='w-[50%] md:w-[18%] mr-[30px]' src={img1} alt="photo" />
                 <Link className='hidden md:block hover:text-[#ccc] font-[400] text-[18px]' href={"/"}>HOME</Link>
                 <Link className='hidden md:block hover:text-[#ccc] font-[400] text-[18px]' href={"/products"}>PRODUCTS</Link>
